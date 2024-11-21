@@ -11,7 +11,7 @@ export const useSocket = () => {
 export const SocketProvider = (props) => {
   const token = localStorage.getItem("token");
 
-  // Initialize socket connection immediately
+  // Initialize socket connection immediatelyjk
   const socket = io("https://college-project1-q29n.onrender.com/", {
     auth: { token },
     withCredentials: true,
